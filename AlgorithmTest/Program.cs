@@ -9,7 +9,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            ThreeMaxMpfTest();
+            FindKthBigTest();
+        }
+
+        static void FindKthBigTest()
+        {
+            int[] nums = new[] {4, 9, 6, 3, 5, 8, 12};
+            var ret = FindKthBig.Solve(nums, 5);
         }
 
         static void ThreeMaxMpfTest()

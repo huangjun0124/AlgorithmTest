@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddTwoNumbers.cs" />
+    <Compile Include="FindKthBig.cs" />
     <Compile Include="LSWR.cs" />
     <Compile Include="MedianofTwoSortedArrays.cs" />
     <Compile Include="MyAtoI.cs" />
