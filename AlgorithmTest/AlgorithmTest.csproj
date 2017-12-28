@@ -39,9 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddTwoNumbers.cs" />
+    <Compile Include="LSWR.cs" />
+    <Compile Include="MedianofTwoSortedArrays.cs" />
     <Compile Include="MyAtoI.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseInteger.cs" />
+    <Compile Include="TwoSum.cs" />
+    <Compile Include="ZigZagConversion.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

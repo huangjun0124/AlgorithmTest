@@ -56,5 +56,46 @@ namespace ConsoleApp1
             }
             return ret;
         }
+
+        public static int atoi2(string str)
+        {
+            int ret = 0;
+            int signed = 1;
+            bool started = false;
+            foreach (char c in str)
+            {
+                if (!started && c == ' ') continue;
+                if (!started && c == '+')
+                {
+                    started = true;
+                    signed = 1;
+                }
+                else if (!started && c == '-')
+                {
+                    started = true;
+                    signed = -1;
+                }
+                else if (c >= '0' && c <= '9')
+                {
+                    if (!started)
+                    {
+                        started = true;
+                    }
+                    int tail = signed * (c - '0');
+                    int newRet = ret * 10 + tail;
+                    if ((newRet - tail) / 10 != ret || (signed==1 && newRet<0) || (signed==-1 && newRet>0))
+                    {
+                        if (signed == 1)
+                        {
+                            return int.MaxValue;
+                        }
+                        return int.MinValue;
+                    }
+                    ret = newRet;
+                }
+                else break;
+            }
+            return ret;
+        }
     }
 }
