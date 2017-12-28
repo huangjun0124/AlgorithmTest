@@ -9,7 +9,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestAtoI();
+            ThreeMaxMpfTest();
+        }
+
+        static void ThreeMaxMpfTest()
+        {
+            int[] nums = new[] {-100, -30, 9, 8, 55, 4};
+            var ret = ThreeMaxMpf.Solve(nums);
         }
 
         static void ReverseInt()
