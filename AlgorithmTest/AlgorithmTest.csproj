@@ -45,6 +45,7 @@
     <Compile Include="ImplementStrStr.cs" />
     <Compile Include="LSWR.cs" />
     <Compile Include="MedianofTwoSortedArrays.cs" />
+    <Compile Include="MergeSortedArray.cs" />
     <Compile Include="MergeSortedLists.cs" />
     <Compile Include="MyAtoI.cs" />
     <Compile Include="Program.cs" />
