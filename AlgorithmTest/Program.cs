@@ -9,7 +9,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            BinarySearchTest();
+            CounSayTest();
+        }
+
+        static void CounSayTest()
+        {
+            CountandSay.CountAndSay(5);
         }
 
         static void BinarySearchTest()
