@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="AddTwoNumbers.cs" />
     <Compile Include="FindKthBig.cs" />
+    <Compile Include="ImplementStrStr.cs" />
     <Compile Include="LSWR.cs" />
     <Compile Include="MedianofTwoSortedArrays.cs" />
     <Compile Include="MergeSortedLists.cs" />
