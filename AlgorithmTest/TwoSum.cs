@@ -25,5 +25,25 @@ namespace ConsoleApp1
             }
             return ret;
         }
+
+        public static int[] TwoSum2(int[] numbers, int target)
+        {
+            int[] res = new int[2];
+            if (numbers == null || numbers.Length < 2)
+                return null;
+            Dictionary<int, int> map = new Dictionary<int, int>();
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                int diff = target - numbers[i];
+                if (map.ContainsKey(diff))
+                {
+                    res[0] = map[diff] + 1;
+                    res[1] = i + 1;
+                    return res;
+                }
+                map[numbers[i]] = i;
+            }
+            return null;
+        }
     }
 }

@@ -49,6 +49,7 @@
     <Compile Include="ReverseInteger.cs" />
     <Compile Include="ThreeMaxMpf.cs" />
     <Compile Include="TwoSum.cs" />
+    <Compile Include="ValidParentheses.cs" />
     <Compile Include="ZigZagConversion.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

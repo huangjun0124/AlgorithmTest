@@ -9,7 +9,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            FindKthBigTest();
+            TestTwoSum();
         }
 
         static void FindKthBigTest()
@@ -84,6 +84,7 @@ namespace ConsoleApp1
         {
             int[] nums = new[] {2, 7, 11, 15};
             var ret = TwoSum.TwoSumSolution(nums, 9);
+            ret = TwoSum.TwoSum2(nums, 9);
         }
 
         static void TestAtoI()
