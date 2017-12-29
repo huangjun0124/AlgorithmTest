@@ -9,7 +9,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestRemoveDuipli();
+            TestRemoveElement();
+        }
+
+        static void TestRemoveElement()
+        {
+            int[] nums = new[] { 3, 2, 2, 3 };
+            var ret = RemoveElement.RemoveElementSolution(nums, 3);
         }
 
         static void TestRemoveDuipli()
