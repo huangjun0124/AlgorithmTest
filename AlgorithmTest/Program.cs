@@ -9,7 +9,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestMergeSortedList();
+            TestRemoveDuipli();
+        }
+
+        static void TestRemoveDuipli()
+        {
+            int[] nums = new[] {1,1,2};
+            var ret = RemoveDuplicatesfromSortedArray.RemoveDuplicates(nums);
         }
 
         static void TestMergeSortedList()
