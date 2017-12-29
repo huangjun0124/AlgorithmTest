@@ -9,7 +9,41 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestTwoSum();
+            TestMergeSortedList();
+        }
+
+        static void TestMergeSortedList()
+        {
+            int[] nums1 = new[] { 1, 2, 4 }, nums2 = new[] { 1, 3, 4 };
+            ListNode l1 = null, l2 = null, last = null;
+            for (int i = 0; i < nums1.Length; i++)
+            {
+                var tmp = new ListNode(nums1[i]);
+                if (l1 == null)
+                {
+                    last = l1 = tmp;
+                }
+                else
+                {
+                    last.next = tmp;
+                    last = last.next;
+                }
+            }
+            for (int i = 0; i < nums2.Length; i++)
+            {
+                var tmp = new ListNode(nums2[i]);
+                if (l2 == null)
+                {
+                    last = l2 = tmp;
+                }
+                else
+                {
+                    last.next = tmp;
+                    last = last.next;
+                }
+            }
+            var ret = MergeSortedLists.MergeTwoLists(l1, l2);
+             ret = MergeSortedLists.Solution2(l1, l2);
         }
 
         static void FindKthBigTest()
