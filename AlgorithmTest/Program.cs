@@ -9,7 +9,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestRemoveElement();
+            BinarySearchTest();
+        }
+
+        static void BinarySearchTest()
+        {
+            int[] nums = new[] { 1,3,5,6 };
+            var ret = SearchInsertPosition.SearchInsert(nums, 2);
         }
 
         static void TestRemoveElement()

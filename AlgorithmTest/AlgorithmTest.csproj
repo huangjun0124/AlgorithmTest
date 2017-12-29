@@ -51,6 +51,7 @@
     <Compile Include="RemoveDuplicatesfromSortedArray.cs" />
     <Compile Include="RemoveElement.cs" />
     <Compile Include="ReverseInteger.cs" />
+    <Compile Include="SearchInsertPosition.cs" />
     <Compile Include="ThreeMaxMpf.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="ValidParentheses.cs" />
