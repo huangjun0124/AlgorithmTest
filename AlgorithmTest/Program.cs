@@ -9,7 +9,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestMaxSubarray();
+            LegthOfLastWordTest();
+        }
+
+        static void LegthOfLastWordTest()
+        {
+            var ret = LengthofLastWord.LengthOfLastWord("Hello World");
         }
 
         static void TestMaxSubarray()
