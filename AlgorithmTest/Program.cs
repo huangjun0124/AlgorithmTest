@@ -9,7 +9,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            CounSayTest();
+            TestMaxSubarray();
+        }
+
+        static void TestMaxSubarray()
+        {
+            int[] nums = new[] { -2, 1 };
+            var ret = Maximum_Subarray.MaxSubArray(nums);
         }
 
         static void CounSayTest()
