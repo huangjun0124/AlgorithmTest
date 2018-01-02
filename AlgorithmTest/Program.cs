@@ -10,12 +10,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            RemoveDuipSL();
+            NonDecreasingArray();
+        }
+
+        static void NonDecreasingArray()
+        {
+            int[] nums1 = new[] { 3, 4, 2, 3 };
+            var ret = Non_decreasing_Array.CheckPossibility(nums1);
         }
 
         static void RemoveDuipSL()
         {
-            int[] nums1 = new[] {1,1,1,2,2,3,4,5,5,6};
+            int[] nums1 = new[] {4,2,3};
             ListNode ln = BuildList(nums1);
             var ret = RemoveDuplicatesfromSortedList.DeleteDuplicates(ln);
         }
