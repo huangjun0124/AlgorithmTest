@@ -44,6 +44,7 @@
     <Compile Include="ClimbingStairs.cs" />
     <Compile Include="CountandSay.cs" />
     <Compile Include="FindKthBig.cs" />
+    <Compile Include="Hamming Distance.cs" />
     <Compile Include="ImplementStrStr.cs" />
     <Compile Include="LengthofLastWord.cs" />
     <Compile Include="LSWR.cs" />
@@ -67,6 +68,9 @@
     <Compile Include="TwoSum.cs" />
     <Compile Include="ValidParentheses.cs" />
     <Compile Include="ZigZagConversion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQL\SecondHighestSalary.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
