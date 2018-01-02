@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
@@ -9,7 +10,28 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            SqrtTest();
+            ClimbingStairs();
+        }
+
+        static void ClimbingStairs()
+        {
+            Stopwatch s = new Stopwatch();
+            s.Start();
+            ConsoleApp1.ClimbingStairs.ClimbStairs(44);
+            s.Stop();
+            var time = s.ElapsedMilliseconds;
+
+            s.Reset();
+            s.Start();
+            ConsoleApp1.ClimbingStairs.SolutionByDP(44);
+            s.Stop();
+             time = s.ElapsedMilliseconds;
+
+            s.Reset();
+            s.Start();
+            ConsoleApp1.ClimbingStairs.Solution3(44);
+            s.Stop();
+            time = s.ElapsedMilliseconds;
         }
 
         static void SqrtTest()
