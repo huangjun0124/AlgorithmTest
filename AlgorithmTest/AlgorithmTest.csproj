@@ -66,6 +66,7 @@
     <Compile Include="ReverseInteger.cs" />
     <Compile Include="Same Tree.cs" />
     <Compile Include="SearchInsertPosition.cs" />
+    <Compile Include="Self Dividing Numbers.cs" />
     <Compile Include="Sqrt.cs" />
     <Compile Include="ThreeMaxMpf.cs" />
     <Compile Include="TwoSum.cs" />
