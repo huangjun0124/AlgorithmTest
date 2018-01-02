@@ -9,7 +9,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            AddBinaryTest();
+            SqrtTest();
+        }
+
+        static void SqrtTest()
+        {
+            var ret = Sqrt.MySqrt(2147395599);
         }
 
         static void AddBinaryTest()

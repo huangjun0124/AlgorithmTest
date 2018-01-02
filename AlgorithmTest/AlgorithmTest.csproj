@@ -58,6 +58,7 @@
     <Compile Include="RemoveElement.cs" />
     <Compile Include="ReverseInteger.cs" />
     <Compile Include="SearchInsertPosition.cs" />
+    <Compile Include="Sqrt.cs" />
     <Compile Include="ThreeMaxMpf.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="ValidParentheses.cs" />
