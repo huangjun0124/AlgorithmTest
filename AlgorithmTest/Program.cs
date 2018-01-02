@@ -9,7 +9,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            LegthOfLastWordTest();
+            PlusOneTest();
+        }
+
+        static void PlusOneTest()
+        {
+            int[] nums = new[] { 1,2,9 };
+            var ret = PlusOne.PlusOneSolution(nums);
         }
 
         static void LegthOfLastWordTest()
