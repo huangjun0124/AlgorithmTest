@@ -52,6 +52,7 @@
     <Compile Include="LSWR.cs" />
     <Compile Include="Maximum Subarray.cs" />
     <Compile Include="MedianofTwoSortedArrays.cs" />
+    <Compile Include="Merge Two Binary Trees.cs" />
     <Compile Include="MergeSortedArray.cs" />
     <Compile Include="MergeSortedLists.cs" />
     <Compile Include="MyAtoI.cs" />
