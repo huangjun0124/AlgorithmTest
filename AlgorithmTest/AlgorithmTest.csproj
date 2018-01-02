@@ -47,6 +47,7 @@
     <Compile Include="Hamming Distance.cs" />
     <Compile Include="ImplementStrStr.cs" />
     <Compile Include="LengthofLastWord.cs" />
+    <Compile Include="Longest Common Prefix.cs" />
     <Compile Include="LSWR.cs" />
     <Compile Include="Maximum Subarray.cs" />
     <Compile Include="MedianofTwoSortedArrays.cs" />
