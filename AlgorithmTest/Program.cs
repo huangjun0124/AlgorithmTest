@@ -10,7 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            NonDecreasingArray();
+            Number_ComplementTest();
+        }
+
+        static void Number_ComplementTest()
+        {
+            var ret = Number_Complement.FindComplement(5);
+            ret = Number_Complement.Solution2(5);
         }
 
         static void NonDecreasingArray()

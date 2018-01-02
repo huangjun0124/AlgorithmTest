@@ -58,6 +58,7 @@
     <Compile Include="MergeSortedLists.cs" />
     <Compile Include="MyAtoI.cs" />
     <Compile Include="Non-decreasing Array.cs" />
+    <Compile Include="Number Complement.cs" />
     <Compile Include="PlusOne.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
