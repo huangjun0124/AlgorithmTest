@@ -9,7 +9,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            PlusOneTest();
+            AddBinaryTest();
+        }
+
+        static void AddBinaryTest()
+        {
+            var ret = AddBinary.AddBinarySolution("1010", "1011");
         }
 
         static void PlusOneTest()
