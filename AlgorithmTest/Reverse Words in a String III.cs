@@ -90,5 +90,22 @@ namespace ConsoleApp1
                 ca[j] = tmp;
             }
         }
+
+
+        public static string ReverseString(string s)
+        {
+            char[] word = s.ToCharArray();
+            int i = 0;
+            int j = s.Length - 1;
+            while (i < j)
+            {
+                char temp = word[i];
+                word[i] = word[j];
+                word[j] = temp;
+                i++;
+                j--;
+            }
+            return new string(word);
+        }
     }
 }
