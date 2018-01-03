@@ -48,6 +48,7 @@
     <Compile Include="Hamming Distance.cs" />
     <Compile Include="ImplementStrStr.cs" />
     <Compile Include="Judge Route Circle.cs" />
+    <Compile Include="Keyboard Row.cs" />
     <Compile Include="LengthofLastWord.cs" />
     <Compile Include="Longest Common Prefix.cs" />
     <Compile Include="LSWR.cs" />
