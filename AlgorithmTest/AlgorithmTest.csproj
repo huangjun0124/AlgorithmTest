@@ -65,6 +65,7 @@
     <Compile Include="RemoveDuplicatesfromSortedArray.cs" />
     <Compile Include="RemoveDuplicatesfromSortedList.cs" />
     <Compile Include="RemoveElement.cs" />
+    <Compile Include="Reverse Words in a String III.cs" />
     <Compile Include="ReverseInteger.cs" />
     <Compile Include="Same Tree.cs" />
     <Compile Include="SearchInsertPosition.cs" />
