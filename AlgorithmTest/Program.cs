@@ -10,7 +10,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            ReverseWordsInString();
+            Reshapematrix();
+        }
+
+        static void Reshapematrix()
+        {
+            int[,] nums = 
+            {
+                {1,2 },
+                {3,4 }
+            };
+            var ret = Reshape_the_matrix.matrixReshape(nums, 1, 4);
         }
 
         static void ReverseWordsInString()
