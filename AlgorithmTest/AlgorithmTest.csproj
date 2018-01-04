@@ -45,6 +45,7 @@
     <Compile Include="Baseball Game.cs" />
     <Compile Include="ClimbingStairs.cs" />
     <Compile Include="CountandSay.cs" />
+    <Compile Include="Distribute Candies.cs" />
     <Compile Include="FindKthBig.cs" />
     <Compile Include="Hamming Distance.cs" />
     <Compile Include="ImplementStrStr.cs" />
