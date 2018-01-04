@@ -10,7 +10,28 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            MaxConsecutiveOnes();
+            TestMoveZeroes();
+        }
+
+        static void TestMoveZeroes()
+        {
+            int[] nums = new int[] {0, 1, 0, 3, 12};
+            Move_Zeroes.MoveZeroes(nums);
+        }
+
+        static void FTD()
+        {
+            var ret = Find_the_Difference.FindTheDifference("abcd", "abcde");
+        }
+
+        static void CBStest()
+        {
+            var ret = Count_Binary_Substrings.CountBinarySubstrings("10101");
+        }
+
+        static void DetectCapital()
+        {
+            var ret = Detect_Capital.DetectCapitalUse("USA");
         }
 
         static void MaxConsecutiveOnes()

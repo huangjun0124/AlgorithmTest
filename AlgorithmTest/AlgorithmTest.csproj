@@ -45,9 +45,13 @@
     <Compile Include="Average of Levels in Binary Tree.cs" />
     <Compile Include="Baseball Game.cs" />
     <Compile Include="ClimbingStairs.cs" />
+    <Compile Include="Count Binary Substrings.cs" />
     <Compile Include="CountandSay.cs" />
+    <Compile Include="Detect Capital.cs" />
     <Compile Include="Distribute Candies.cs" />
     <Compile Include="Employee Importance.cs" />
+    <Compile Include="Find All Numbers Disappeared in an Array.cs" />
+    <Compile Include="Find the Difference.cs" />
     <Compile Include="FindKthBig.cs" />
     <Compile Include="Hamming Distance.cs" />
     <Compile Include="ImplementStrStr.cs" />
@@ -66,6 +70,7 @@
     <Compile Include="Merge Two Binary Trees.cs" />
     <Compile Include="MergeSortedArray.cs" />
     <Compile Include="MergeSortedLists.cs" />
+    <Compile Include="Move Zeroes.cs" />
     <Compile Include="MyAtoI.cs" />
     <Compile Include="Next Greater Element I.cs" />
     <Compile Include="Non-decreasing Array.cs" />
