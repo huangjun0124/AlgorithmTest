@@ -56,6 +56,7 @@
     <Compile Include="LengthofLastWord.cs" />
     <Compile Include="Longest Common Prefix.cs" />
     <Compile Include="LSWR.cs" />
+    <Compile Include="Max Consecutive Ones.cs" />
     <Compile Include="Maximum Subarray.cs" />
     <Compile Include="MedianofTwoSortedArrays.cs" />
     <Compile Include="Merge Two Binary Trees.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Same Tree.cs" />
     <Compile Include="SearchInsertPosition.cs" />
     <Compile Include="Self Dividing Numbers.cs" />
+    <Compile Include="Single Number.cs" />
     <Compile Include="Sqrt.cs" />
     <Compile Include="ThreeMaxMpf.cs" />
     <Compile Include="Trim a Binary Search Tree.cs" />

@@ -10,7 +10,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            IslandPerimeter();
+            MaxConsecutiveOnes();
+        }
+
+        static void MaxConsecutiveOnes()
+        {
+            int[] nums = {1, 0, 1, 1, 0, 1};
+            var ret = Max_Consecutive_Ones.SolutionPrefer(nums);
         }
 
         static void IslandPerimeter()

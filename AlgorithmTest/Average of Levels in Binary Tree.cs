@@ -110,5 +110,11 @@ namespace ConsoleApp1
             }
             return averageList;
         }
+
+        // this is a fucking stupid question
+        public static int FindLUSlength(string a, string b)
+        {
+            return a.Equals(b) ? -1 : Math.Max(a.Length, b.Length);
+        }
     }
 }
