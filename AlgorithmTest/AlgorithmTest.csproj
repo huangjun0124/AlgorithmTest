@@ -45,12 +45,14 @@
     <Compile Include="Average of Levels in Binary Tree.cs" />
     <Compile Include="Baseball Game.cs" />
     <Compile Include="ClimbingStairs.cs" />
+    <Compile Include="Convert BST to Greater Tree.cs" />
     <Compile Include="Count Binary Substrings.cs" />
     <Compile Include="CountandSay.cs" />
     <Compile Include="Detect Capital.cs" />
     <Compile Include="Distribute Candies.cs" />
     <Compile Include="Employee Importance.cs" />
     <Compile Include="Find All Numbers Disappeared in an Array.cs" />
+    <Compile Include="Find Smallest Letter Greater Than Target.cs" />
     <Compile Include="Find the Difference.cs" />
     <Compile Include="FindKthBig.cs" />
     <Compile Include="Hamming Distance.cs" />
@@ -61,7 +63,7 @@
     <Compile Include="Keyboard Row.cs" />
     <Compile Include="LengthofLastWord.cs" />
     <Compile Include="Longest Common Prefix.cs" />
-    <Compile Include="LSWR.cs" />
+    <Compile Include="LongestSubstringWithoutRepeatingC.cs" />
     <Compile Include="Max Area of Island.cs" />
     <Compile Include="Max Consecutive Ones.cs" />
     <Compile Include="Maximum Depth of Binary Tree.cs" />

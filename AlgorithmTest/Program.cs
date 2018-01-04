@@ -198,7 +198,7 @@ namespace ConsoleApp1
         static void TestLSWR()
         {
             string s = "abcabcbb";
-            var ret = LSWR.LongestSubstringWithoutRepeatingC(s);
+            var ret = LongestSubstringWithoutRepeatingC.LongestSubstringWithoutRepeatingC(s);
         }
 
         static void TestAddTwoNumbers()
