@@ -74,6 +74,7 @@
     <Compile Include="Self Dividing Numbers.cs" />
     <Compile Include="Sqrt.cs" />
     <Compile Include="ThreeMaxMpf.cs" />
+    <Compile Include="Trim a Binary Search Tree.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="ValidParentheses.cs" />
     <Compile Include="ZigZagConversion.cs" />
