@@ -10,7 +10,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Reshapematrix();
+            IslandPerimeter();
+        }
+
+        static void IslandPerimeter()
+        {
+            int[,] grid =
+            {
+                {0, 1, 0, 0},
+                {1,1,1,0 },
+                {0, 1, 0, 0},
+                {1, 1, 0, 0}
+            };
+            var ret = Island_Perimeter.IslandPerimeter(grid);
         }
 
         static void Reshapematrix()
