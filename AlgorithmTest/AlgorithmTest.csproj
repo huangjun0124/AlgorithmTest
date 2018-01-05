@@ -65,6 +65,7 @@
     <Compile Include="Island Perimeter.cs" />
     <Compile Include="Judge Route Circle.cs" />
     <Compile Include="Keyboard Row.cs" />
+    <Compile Include="Largest Number At Least Twice of Others.cs" />
     <Compile Include="LengthofLastWord.cs" />
     <Compile Include="Longest Common Prefix.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingC.cs" />
