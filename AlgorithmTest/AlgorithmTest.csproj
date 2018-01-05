@@ -57,6 +57,7 @@
     <Compile Include="FindKthBig.cs" />
     <Compile Include="Hamming Distance.cs" />
     <Compile Include="ImplementStrStr.cs" />
+    <Compile Include="Intersection of Two Arrays.cs" />
     <Compile Include="Invert Binary Tree.cs" />
     <Compile Include="Island Perimeter.cs" />
     <Compile Include="Judge Route Circle.cs" />

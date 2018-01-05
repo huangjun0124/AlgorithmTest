@@ -10,7 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestMoveZeroes();
+            IOTA();
+        }
+
+        static void IOTA()
+        {
+            int[] nums1 = new int[] { 1,2,2,1 };
+            int[] nums2 = new int[] {2,2 };
+            var ret = Intersection_of_Two_Arrays.intersection(nums1, nums2);
         }
 
         static void TestMoveZeroes()
@@ -198,7 +205,7 @@ namespace ConsoleApp1
         static void TestLSWR()
         {
             string s = "abcabcbb";
-            var ret = LongestSubstringWithoutRepeatingC.LongestSubstringWithoutRepeatingC(s);
+            var ret = LongestSubstringWithoutRepeatingCharacter.LongestSubstringWithoutRepeatingC(s);
         }
 
         static void TestAddTwoNumbers()
