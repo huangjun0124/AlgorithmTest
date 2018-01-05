@@ -73,6 +73,7 @@
     <Compile Include="Max Area of Island.cs" />
     <Compile Include="Max Consecutive Ones.cs" />
     <Compile Include="Maximum Depth of Binary Tree.cs" />
+    <Compile Include="Maximum Product of Three Numbers.cs" />
     <Compile Include="Maximum Subarray.cs" />
     <Compile Include="MedianofTwoSortedArrays.cs" />
     <Compile Include="Merge Two Binary Trees.cs" />
