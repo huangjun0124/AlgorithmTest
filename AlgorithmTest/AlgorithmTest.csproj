@@ -75,6 +75,7 @@
     <Compile Include="Merge Two Binary Trees.cs" />
     <Compile Include="MergeSortedArray.cs" />
     <Compile Include="MergeSortedLists.cs" />
+    <Compile Include="Minimum Absolute Difference in BST.cs" />
     <Compile Include="Move Zeroes.cs" />
     <Compile Include="MyAtoI.cs" />
     <Compile Include="Next Greater Element I.cs" />
