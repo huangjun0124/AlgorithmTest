@@ -65,6 +65,7 @@
     <Compile Include="LengthofLastWord.cs" />
     <Compile Include="Longest Common Prefix.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingC.cs" />
+    <Compile Include="Majority Element.cs" />
     <Compile Include="Max Area of Island.cs" />
     <Compile Include="Max Consecutive Ones.cs" />
     <Compile Include="Maximum Depth of Binary Tree.cs" />

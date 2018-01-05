@@ -10,7 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            IOTA();
+            TestMajorityEle();
+        }
+
+        static void TestMajorityEle()
+        {
+            var ret = Majority_Element.MajorityElement(new[] {3, 2, 3});
         }
 
         static void IOTA()
