@@ -55,6 +55,7 @@
     <Compile Include="Find Smallest Letter Greater Than Target.cs" />
     <Compile Include="Find the Difference.cs" />
     <Compile Include="FindKthBig.cs" />
+    <Compile Include="First Unique Character in a String.cs" />
     <Compile Include="Hamming Distance.cs" />
     <Compile Include="ImplementStrStr.cs" />
     <Compile Include="Intersection of Two Arrays.cs" />
