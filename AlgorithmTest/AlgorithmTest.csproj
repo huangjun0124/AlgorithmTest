@@ -98,6 +98,7 @@
     <Compile Include="Sum of Left Leaves.cs" />
     <Compile Include="ThreeMaxMpf.cs" />
     <Compile Include="Trim a Binary Search Tree.cs" />
+    <Compile Include="Two Sum II - Input array is sorted.cs" />
     <Compile Include="Two Sum IV - Input is a BST.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="ValidParentheses.cs" />
