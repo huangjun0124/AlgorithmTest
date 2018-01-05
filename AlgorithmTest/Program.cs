@@ -10,7 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestValidAnagram();
+            TestMISOTL();
+        }
+
+        static void TestMISOTL()
+        {
+            var ret = Minimum_Index_Sum_of_Two_Lists.FindRestaurant(
+                new string[] {"Shogun", "Tapioca Express", "Burger King", "KFC"},
+                new string[] {"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"});
         }
 
         static void TestValidAnagram()
