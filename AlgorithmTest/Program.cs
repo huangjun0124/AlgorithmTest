@@ -10,7 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestMISOTL();
+            ReadBinaryWatchTest();
+        }
+
+        static void ReadBinaryWatchTest()
+        {
+            Binary_Watch.ReadBinaryWatch(0);
         }
 
         static void TestMISOTL()
