@@ -102,6 +102,7 @@
     <Compile Include="Two Sum II - Input array is sorted.cs" />
     <Compile Include="Two Sum IV - Input is a BST.cs" />
     <Compile Include="TwoSum.cs" />
+    <Compile Include="Valid Anagram.cs" />
     <Compile Include="ValidParentheses.cs" />
     <Compile Include="ZigZagConversion.cs" />
   </ItemGroup>

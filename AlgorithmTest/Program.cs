@@ -10,7 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestMajorityEle();
+            TestValidAnagram();
+        }
+
+        static void TestValidAnagram()
+        {
+            Valid_Anagram.Solution3("", "");
         }
 
         static void TestMajorityEle()
