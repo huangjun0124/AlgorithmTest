@@ -92,6 +92,7 @@
     <Compile Include="RemoveDuplicatesfromSortedList.cs" />
     <Compile Include="RemoveElement.cs" />
     <Compile Include="Reshape the matrix.cs" />
+    <Compile Include="Reverse Linked List.cs" />
     <Compile Include="Reverse Words in a String III.cs" />
     <Compile Include="ReverseInteger.cs" />
     <Compile Include="Same Tree.cs" />
