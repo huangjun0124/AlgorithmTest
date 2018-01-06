@@ -10,7 +10,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestReverseString();
+            TestSecondMinNodeInBinaryTree();
+        }
+
+        static void TestSecondMinNodeInBinaryTree()
+        {
+            int?[] nums = new int?[] {2, 2, 5, null, null, 5, 7};
+            nums = new int?[]{2,2,2};
+            TreeNode root = TreeUtil.BuildTree(nums);
+            var ret = Second_Minimum_Node_In_a_Binary_Tree.FindSecondMinimumValue(root);
         }
 
         static void TestReverseString()

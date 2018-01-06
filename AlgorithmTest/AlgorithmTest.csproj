@@ -105,6 +105,7 @@
     <Compile Include="ReverseInteger.cs" />
     <Compile Include="Same Tree.cs" />
     <Compile Include="SearchInsertPosition.cs" />
+    <Compile Include="Second Minimum Node In a Binary Tree.cs" />
     <Compile Include="Self Dividing Numbers.cs" />
     <Compile Include="Single Number.cs" />
     <Compile Include="Sqrt.cs" />
@@ -115,6 +116,7 @@
     <Compile Include="Two Sum II - Input array is sorted.cs" />
     <Compile Include="Two Sum IV - Input is a BST.cs" />
     <Compile Include="TwoSum.cs" />
+    <Compile Include="Utils\TreeUtil.cs" />
     <Compile Include="Valid Anagram.cs" />
     <Compile Include="ValidParentheses.cs" />
     <Compile Include="ZigZagConversion.cs" />

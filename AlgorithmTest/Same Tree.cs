@@ -5,16 +5,6 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    // Definition for a binary tree node.
-    public class TreeNode
-    {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode(int x) { val = x; }
-    }
-
-
     /*
       Given two binary trees, write a function to check if they are the same or not.
      Two binary trees are considered the same if they are structurally identical 
