@@ -44,6 +44,7 @@
     <Compile Include="Array Partition I.cs" />
     <Compile Include="Average of Levels in Binary Tree.cs" />
     <Compile Include="Baseball Game.cs" />
+    <Compile Include="Best Time to Buy and Sell Stock.cs" />
     <Compile Include="Binary Watch.cs" />
     <Compile Include="ClimbingStairs.cs" />
     <Compile Include="Convert BST to Greater Tree.cs" />
