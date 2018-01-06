@@ -83,6 +83,7 @@
     <Compile Include="MergeSortedLists.cs" />
     <Compile Include="Minimum Absolute Difference in BST.cs" />
     <Compile Include="Minimum Index Sum of Two Lists.cs" />
+    <Compile Include="Missing Number.cs" />
     <Compile Include="Move Zeroes.cs" />
     <Compile Include="MyAtoI.cs" />
     <Compile Include="Next Greater Element I.cs" />

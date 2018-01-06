@@ -89,5 +89,27 @@ namespace ConsoleApp1
             }
             return false;
         }
+
+        //Intersection of Two Arrays II
+        public int[] Intersect(int[] nums1, int[] nums2)
+        {
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            foreach (var n in nums1)
+            {
+                if (!dic.ContainsKey(n))
+                    dic[n] = 1;
+                else dic[n]++;
+            }
+            var ret = new List<int>();
+            foreach (var n in nums2)
+            {
+                if (dic.ContainsKey(n) && dic[n] > 0)
+                {
+                    ret.Add(n);
+                    dic[n]--;
+                }
+            }
+            return ret.ToArray();
+        }
     }
 }

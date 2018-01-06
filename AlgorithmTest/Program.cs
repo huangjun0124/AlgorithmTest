@@ -10,7 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            ReadBinaryWatchTest();
+            TestMissingNumber();
+        }
+
+        static void TestMissingNumber()
+        {
+            var ret = Missing_Number.Solution2(new int[] {3, 0, 1, 4});
         }
 
         static void ReadBinaryWatchTest()
