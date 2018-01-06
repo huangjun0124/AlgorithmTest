@@ -10,7 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestSecondMinNodeInBinaryTree();
+            TestBinaryTreeLevelTraver();
+        }
+
+        static void TestBinaryTreeLevelTraver()
+        {
+            int?[] nums = new int?[] { 3, 9, 20, null, null, 15, 7 };
+            TreeNode root = TreeUtil.BuildTree(nums);
+            var ret = Binary_Tree_Level_Order_Traversal_II.Solution2(root);
         }
 
         static void TestSecondMinNodeInBinaryTree()
