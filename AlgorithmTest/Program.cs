@@ -10,7 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestBinaryTreeLevelTraver();
+            TestLongest_Harmonious_Subsequence();
+        }
+
+        static void TestLongest_Harmonious_Subsequence()
+        {
+            var ret = Longest_Harmonious_Subsequence.FindLHS(new[] {1, 2, 2, 1});
         }
 
         static void TestBinaryTreeLevelTraver()

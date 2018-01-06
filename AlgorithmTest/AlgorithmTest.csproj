@@ -75,6 +75,7 @@
     <Compile Include="LengthofLastWord.cs" />
     <Compile Include="Longest Common Prefix.cs" />
     <Compile Include="Longest Continuous Increasing Subsequence.cs" />
+    <Compile Include="Longest Harmonious Subsequence.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingC.cs" />
     <Compile Include="Majority Element.cs" />
     <Compile Include="Max Area of Island.cs" />
