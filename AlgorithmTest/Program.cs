@@ -10,7 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestMissingNumber();
+            TestReverseString();
+        }
+
+        static void TestReverseString()
+        {
+            var ret = Reverse_String_II.ReverseStr2("abcdefg", 2);
         }
 
         static void TestMissingNumber()
