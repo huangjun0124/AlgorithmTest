@@ -44,6 +44,26 @@ Note: The length of the input array will not exceed 20,000.
                     left++;
             }
             return result;
-        }
+        }//310 ms
+
+        //先统计每个元素出现的次数，然后对统计结果：如果某元素+1的值存在，那么求出他们出现的和即可
+        public static int Solution2(int[] nums)
+        {
+            Dictionary<int, int> numShowCount = new Dictionary<int, int>();
+            foreach (var num in nums)
+            {
+                if (numShowCount.ContainsKey(num)) numShowCount[num]++;
+                else numShowCount[num] = 1;
+            }
+            int max = 0;
+            foreach (var key in numShowCount.Keys)
+            {
+                if (numShowCount.ContainsKey(key + 1))
+                {
+                    max = Math.Max(max, numShowCount[key] + numShowCount[key + 1]);
+                }
+            }
+            return max;
+        }//Runtime: 308 ms
     }
 }
