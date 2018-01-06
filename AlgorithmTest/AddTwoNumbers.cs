@@ -4,14 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace ConsoleApp1
-{
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
-    }
-
+{ 
     class AddTwoNumbers
     {
         public static ListNode AddTwoNumbersSolution(ListNode l1, ListNode l2)

@@ -130,7 +130,7 @@ namespace ConsoleApp1
         static void RemoveDuipSL()
         {
             int[] nums1 = new[] {4,2,3};
-            ListNode ln = BuildList(nums1);
+            ListNode ln = ListUtil.BuildList(nums1);
             var ret = RemoveDuplicatesfromSortedList.DeleteDuplicates(ln);
         }
 
@@ -208,7 +208,7 @@ namespace ConsoleApp1
         static void TestMergeSortedList()
         {
             int[] nums1 = new[] { 1, 2, 4 }, nums2 = new[] { 1, 3, 4 };
-            ListNode l1 = BuildList(nums1), l2 = BuildList(nums2);
+            ListNode l1 = ListUtil.BuildList(nums1), l2 = ListUtil.BuildList(nums2);
             var ret = MergeSortedLists.MergeTwoLists(l1, l2);
              ret = MergeSortedLists.Solution2(l1, l2);
         }
@@ -251,28 +251,8 @@ namespace ConsoleApp1
         static void TestAddTwoNumbers()
         {
             int[] nums1 = new[] {1, 8}, nums2 = new[] {0};
-            ListNode l1 = BuildList(nums1), l2 = BuildList(nums2);
+            ListNode l1 = ListUtil.BuildList(nums1), l2 = ListUtil.BuildList(nums2);
             var ret = AddTwoNumbers.AddTwoNumbersSolution(l1, l2);
-        }
-
-
-        static ListNode BuildList(int[] nums)
-        {
-            ListNode l1 = null, last = null;
-            for (int i = 0; i < nums.Length; i++)
-            {
-                var tmp = new ListNode(nums[i]);
-                if (l1 == null)
-                {
-                    last = l1 = tmp;
-                }
-                else
-                {
-                    last.next = tmp;
-                    last = last.next;
-                }
-            }
-            return l1;
         }
 
         static void TestTwoSum()

@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add Strings.cs" />
     <Compile Include="AddBinary.cs" />
     <Compile Include="AddTwoNumbers.cs" />
     <Compile Include="Array Partition I.cs" />
@@ -116,6 +117,7 @@
     <Compile Include="Two Sum II - Input array is sorted.cs" />
     <Compile Include="Two Sum IV - Input is a BST.cs" />
     <Compile Include="TwoSum.cs" />
+    <Compile Include="Utils\ListUtil.cs" />
     <Compile Include="Utils\TreeUtil.cs" />
     <Compile Include="Valid Anagram.cs" />
     <Compile Include="ValidParentheses.cs" />
