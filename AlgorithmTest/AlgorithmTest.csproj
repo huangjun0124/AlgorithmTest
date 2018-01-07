@@ -104,6 +104,7 @@
     <Compile Include="Non-decreasing Array.cs" />
     <Compile Include="Number Complement.cs" />
     <Compile Include="Number of 1 Bits.cs" />
+    <Compile Include="Pascal%27s Triangle.cs" />
     <Compile Include="Path Sum III.cs" />
     <Compile Include="PlusOne.cs" />
     <Compile Include="Program.cs" />

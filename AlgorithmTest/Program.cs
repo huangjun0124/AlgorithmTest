@@ -10,7 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestFindPivotIndex();
+            TestPascal_s_Triangle();
+        }
+
+        static void TestPascal_s_Triangle()
+        {
+            var ret = Pascal_s_Triangle.Generate(2);
         }
 
         static void TestFindPivotIndex()
