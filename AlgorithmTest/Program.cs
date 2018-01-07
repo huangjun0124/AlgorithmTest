@@ -10,7 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestSubtree_of_Another_Tree();
+            TestFindPivotIndex();
+        }
+
+        static void TestFindPivotIndex()
+        {
+            var ret = Find_Pivot_Index.PivotIndex(new int[]{1,7,3,6,5,6});
         }
 
         static void TestSubtree_of_Another_Tree()

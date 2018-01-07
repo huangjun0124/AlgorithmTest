@@ -46,6 +46,7 @@
     <Compile Include="Average of Levels in Binary Tree.cs" />
     <Compile Include="Baseball Game.cs" />
     <Compile Include="Best Time to Buy and Sell Stock.cs" />
+    <Compile Include="Binary Number with Alternating Bits.cs" />
     <Compile Include="Binary Tree Level Order Traversal II.cs" />
     <Compile Include="Binary Watch.cs" />
     <Compile Include="ClimbingStairs.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Distribute Candies.cs" />
     <Compile Include="Employee Importance.cs" />
     <Compile Include="Find All Numbers Disappeared in an Array.cs" />
+    <Compile Include="Find Pivot Index.cs" />
     <Compile Include="Find Smallest Letter Greater Than Target.cs" />
     <Compile Include="Find the Difference.cs" />
     <Compile Include="FindKthBig.cs" />
