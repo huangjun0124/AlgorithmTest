@@ -69,6 +69,7 @@
     <Compile Include="FindKthBig.cs" />
     <Compile Include="First Unique Character in a String.cs" />
     <Compile Include="Hamming Distance.cs" />
+    <Compile Include="House Robber.cs" />
     <Compile Include="ImplementStrStr.cs" />
     <Compile Include="Intersection of Two Arrays.cs" />
     <Compile Include="Invert Binary Tree.cs" />
