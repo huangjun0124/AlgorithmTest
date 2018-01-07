@@ -123,6 +123,7 @@
     <Compile Include="Student Attendance Record I.cs" />
     <Compile Include="Subtree of Another Tree.cs" />
     <Compile Include="Sum of Left Leaves.cs" />
+    <Compile Include="Symmetric Tree.cs" />
     <Compile Include="ThreeMaxMpf.cs" />
     <Compile Include="Trim a Binary Search Tree.cs" />
     <Compile Include="Two Sum II - Input array is sorted.cs" />
