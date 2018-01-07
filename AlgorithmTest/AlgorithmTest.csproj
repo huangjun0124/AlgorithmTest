@@ -107,6 +107,7 @@
     <Compile Include="Pascal%27s Triangle.cs" />
     <Compile Include="Path Sum III.cs" />
     <Compile Include="PlusOne.cs" />
+    <Compile Include="Power of Three.cs" />
     <Compile Include="Power of Two.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
