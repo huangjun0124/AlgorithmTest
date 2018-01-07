@@ -10,7 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestLicenseKeyFormating();
+            TestConvertToHex();
+        }
+
+        static void TestConvertToHex()
+        {
+            Convert_a_Number_to_Hexadecimal.ToHex(-1);
         }
 
         static void TestLicenseKeyFormating()

@@ -49,6 +49,7 @@
     <Compile Include="Binary Tree Level Order Traversal II.cs" />
     <Compile Include="Binary Watch.cs" />
     <Compile Include="ClimbingStairs.cs" />
+    <Compile Include="Convert a Number to Hexadecimal.cs" />
     <Compile Include="Convert BST to Greater Tree.cs" />
     <Compile Include="Convert Sorted Array to Binary Search Tree.cs" />
     <Compile Include="Count Binary Substrings.cs" />
