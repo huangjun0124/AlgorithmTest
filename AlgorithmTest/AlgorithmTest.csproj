@@ -83,6 +83,7 @@
     <Compile Include="Longest Continuous Increasing Subsequence.cs" />
     <Compile Include="Longest Harmonious Subsequence.cs" />
     <Compile Include="LongestSubstringWithoutRepeatingC.cs" />
+    <Compile Include="Lowest Common Ancestor of a Binary Search Tree.cs" />
     <Compile Include="Majority Element.cs" />
     <Compile Include="Max Area of Island.cs" />
     <Compile Include="Max Consecutive Ones.cs" />
