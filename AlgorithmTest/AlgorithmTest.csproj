@@ -117,6 +117,7 @@
     <Compile Include="SearchInsertPosition.cs" />
     <Compile Include="Second Minimum Node In a Binary Tree.cs" />
     <Compile Include="Self Dividing Numbers.cs" />
+    <Compile Include="Set Mismatch.cs" />
     <Compile Include="Single Number.cs" />
     <Compile Include="Sqrt.cs" />
     <Compile Include="Student Attendance Record I.cs" />
