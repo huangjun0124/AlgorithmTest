@@ -48,6 +48,7 @@
     <Compile Include="Best Time to Buy and Sell Stock.cs" />
     <Compile Include="Binary Number with Alternating Bits.cs" />
     <Compile Include="Binary Tree Level Order Traversal II.cs" />
+    <Compile Include="Binary Tree Paths.cs" />
     <Compile Include="Binary Watch.cs" />
     <Compile Include="ClimbingStairs.cs" />
     <Compile Include="Convert a Number to Hexadecimal.cs" />
