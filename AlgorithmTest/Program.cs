@@ -10,7 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestConvertToHex();
+            TestSubtree_of_Another_Tree();
+        }
+
+        static void TestSubtree_of_Another_Tree()
+        {
+            TreeNode s = TreeUtil.BuildTree(new int?[] {3, 4, 5, 1, 2});
+            TreeNode t = TreeUtil.BuildTree(new int?[] {4, 1, 2});
+            var ret = Subtree_of_Another_Tree.IsSubtree(s, t);
         }
 
         static void TestConvertToHex()

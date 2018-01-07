@@ -115,6 +115,7 @@
     <Compile Include="Single Number.cs" />
     <Compile Include="Sqrt.cs" />
     <Compile Include="Student Attendance Record I.cs" />
+    <Compile Include="Subtree of Another Tree.cs" />
     <Compile Include="Sum of Left Leaves.cs" />
     <Compile Include="ThreeMaxMpf.cs" />
     <Compile Include="Trim a Binary Search Tree.cs" />
