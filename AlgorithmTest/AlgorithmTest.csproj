@@ -73,6 +73,7 @@
     <Compile Include="Keyboard Row.cs" />
     <Compile Include="Largest Number At Least Twice of Others.cs" />
     <Compile Include="LengthofLastWord.cs" />
+    <Compile Include="License Key Formatting.cs" />
     <Compile Include="Longest Common Prefix.cs" />
     <Compile Include="Longest Continuous Increasing Subsequence.cs" />
     <Compile Include="Longest Harmonious Subsequence.cs" />

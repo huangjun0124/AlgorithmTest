@@ -10,7 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            TestLongest_Harmonious_Subsequence();
+            TestLicenseKeyFormating();
+        }
+
+        static void TestLicenseKeyFormating()
+        {
+            var ret = License_Key_Formatting.Solution2("2-5g-3-J", 2);
         }
 
         static void TestLongest_Harmonious_Subsequence()
